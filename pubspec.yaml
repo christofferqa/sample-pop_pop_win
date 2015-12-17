@@ -8,7 +8,10 @@ dependencies:
   bot: '^0.28.0'
   browser: '^0.10.0'
   chrome: '^0.6.3'
-  stagexl: '^0.12.0'
+  stagexl:
+    git:
+      url: https://github.com/christofferqa/StageXL.git
+      ref: 0.12.0-no_await
 dev_dependencies:
   test: '^0.12.0'
   runtime:
