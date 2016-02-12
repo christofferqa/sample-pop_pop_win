@@ -14,8 +14,6 @@ dependencies:
       ref: 0.12.0-no_await
 dev_dependencies:
   test: '^0.12.0'
-  runtime:
-    path: ../../../web_runtime
 transformers:
 - $dart2js:
     commandLineOptions: [--dump-info, --no-frequency-based-minification]
